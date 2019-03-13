@@ -4,7 +4,7 @@ import sys
 # Get user supplied values
 #imagePath = sys.argv[1]
 imagePath = "onde está sua imagem"
-cascPath = "xml"
+cascPath = "arquivo haar cascade xml"
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
